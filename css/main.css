@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  border-bottom: 2px solid gray;
+  margin: 10px;
+  padding: 5px;
+  color: blue;
+}
+
+main p{
+  font-size: 20px;
+  margin: 10px 20px;
+  padding: 30px;
+  background-color: lightgray;
+  border-left: 5px solid blue;
+  color: darkblue;
+}
+
+#titans a {
+  text-decoration: none;
+}
+
+#log_in , #cartLink , #products_link {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  padding-bottom: 10px;
+}
+
+#addIssue {
+  display: flex;
+  justify-content: center;
+  margin-right: 20px;
+  padding-bottom: 10px;
+}
+
+.divider {
+  border-bottom: 1px solid darkblue;
+}
+
+#featuredSlide h2 {
+  color: darkblue;
+  text-align: center;
+}
+#featuredSlide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 25px;
+  padding: 10px;
+}
+#productIMG {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.topLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+#log_in a , #cartDiv a , #products_link a , #addIssue a{
+  border: 2px solid darkblue;
+  padding: 5px;
+  text-decoration: none;
+  background-color: lightgray;
+}
+
+#logInForm , #passReset{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.logInError {
+  color: red;
+}
+
+#subscription_button , #account_button , #sales_button{
+  text-align: center;
+  width: 250px;
+  background-color: lightgray;
+  border: 2px solid darkgray;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px auto;
+}
+
+#subscription_button a , #account_button a , #sales_button a{
+  text-decoration: none;
+  color: darkblue;
+  font-weight: 500px;
+}
+
+.subscription_form , .registration_form{
+  margin: 10px 20px;
+  padding: 30px;
+  background-color: lightgray;
+  border-left: 5px solid blue;
+}
+
+.email_subscribe fieldset , .registration fieldset{
+  display: flex;
+  flex-direction: column;
+  padding: 15px 25px;
+  font-size: 16px;
+  font-weight: 500;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.email_subscribe input .registration input{
+  margin-bottom: 2px;
+}
+
+/* .inputValues {
+  color: #d6d6d6;
+} */
+
+#submitButton , #registerButton , #resetButton{
+  margin: 5px 10px 0 10px;
+  padding: 2px;
+  width: 60px;
+}
+
+#months {
+  display: flex;
+  align-items: center;
+  width: 75%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+#months > * {
+  text-align: center;
+  margin-right: 4px;
+  padding-left: 2px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  font-style: italic;
+  background-color: lightgray;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+#ad-container {
+  margin: 20px auto;
+  height: 100px;
+  width: 220px;
+}
+
+#ad-container img {
+  border:0;
+}
+
+#original_email_error , #confirm_email_error , #name_error {
+  color: red;
+  font-weight: bold;
+}
+
+.container {
+  border-radius: 5px;
+  width: 50px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+#resetGraph {
+  padding: 2px;
+}
+
+/* products stuff */
+.products_div img {
+  width: 100px;
+}
+.addButton , .removeButton {
+  padding: 5px;
+  font-size: 10px;
+  margin-left: 1px;
+}
+.products_div {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center;
+}
+.productContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+}
+.cartButtons {
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+}
+.itemCost {
+  text-align: center;
+}
+
+.shoppingCartTotals {
+  font-size: 18px;
+  background-color: lightgray;
+  color: darkblue;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+}
+
+#paymentInfo {
+  display: flex;
+  justify-content: center;
+}
+
+#paymentField {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+#submitPay {
+  width: 50px;
+  padding: 2px;
+  margin: 5px auto;
+}
