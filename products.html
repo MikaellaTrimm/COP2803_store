@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products Page</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<main>
+  <h1 id="titans"><a href="index.html">Titans Sports Store!</a></h1>
+  <div class="topLinks">
+  <div id="log_in"><a href="log_in.html">Login Your Account</a></div>
+  <div id="cartDiv"><a id="cartLink" href="cart.html">Cart (<span id="cartNumber">0</span>)</a>
+  </div>
+  </div>
+  <div class="divider"></div>
+  <p>
+    Add any of our great products to your cart using the add button, or if you change
+    your mind remove them using the minus button!
+  </p>
+</main>
+
+<div class="products_div">
+  <!-- hat -->
+  <div class="productContainer"><img src="imgs/hat.jpg" alt="white ballcap with titans logo">
+  <div class="itemCost">$<span id="hatPrice">15</span></div>
+  <div class="cartButtons">
+  <button id="addHat" class="addButton"><b>+</b> Add</button>
+  <button id="remHat" class="removeButton" ><b>-</b> Remove</button></div>
+  </div>
+  <!-- jacket -->
+  <div class="productContainer"><img src="imgs/jacket.jpg" alt="blue sports jacket with titans logo on back">
+  <div class="itemCost">$<span id="jacketPrice">40</span></div>
+  <div class="cartButtons">
+  <button id="addJacket" class="addButton"><b>+</b> Add</button>
+  <button id="remJacket" class="removeButton"><b>-</b> Remove</button></div>
+  </div>
+  <!-- backpack -->
+  <div class="productContainer"><img src="imgs/backpack.jpg" alt="grey backpack with irridescent adidas logo">
+  <div class="itemCost">$<span id="backpackPrice">50</span></div>
+  <div class="cartButtons">
+  <button id="addBackpack" class="addButton"><b>+</b> Add</button>
+  <button id="remBackpack" class="removeButton"><b>-</b> Remove</button></div>
+  </div>
+  <!-- Waist Bag -->
+  <div class="productContainer"><img src="imgs/waist.jpg" alt="light grey waist bag with black adidas logo">
+  <div class="itemCost">$<span id="waistPrice">20</span></div>
+  <div class="cartButtons">
+  <button id="addWaist" class="addButton"><b>+</b> Add</button>
+  <button id="remWaist" class="removeButton"><b>-</b> Remove</button></div>
+  </div>
+  <!-- water bottle -->
+  <div class="productContainer"><img src="imgs/bottle.jpg" alt="see-through blue bottle with spc logo">
+  <div class="itemCost">$<span id="bottlePrice">10</span></div>
+  <div class="cartButtons">
+  <button id="addBottle" class="addButton"><b>+</b> Add</button>
+  <button id="remBottle" class="removeButton"><b>-</b> Remove</button></div>
+  </div>
+</div>
+
+
+<div id="ad-container"></div>
+
+<footer> &copy titans sports store 2021 , web design by Mikaella Trimm</footer>
+
+<script src="js/rotateBanner.js"></script>
+<script src="js/shopping_cart.js"></script>
+
+</body>
+</html>

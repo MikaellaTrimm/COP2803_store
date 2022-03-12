@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subscribe To Marketing Emails</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <h1 id="titans"><a href="index.html">Titans Sports Store!</a></h1>
+
+  <div class="subscription_form">
+    <form class="email_subscribe" action="index.html" method="post">
+      <fieldset>
+        <legend>Email Sign Up</legend>
+        <!-- enter email -->
+        <label for="origEmail">Email Address: </label>
+        <input class="inputValues" type="text" name="origEmail" id="origEmail">
+        <span id="original_email_error">&nbsp</span>
+
+        <!-- re-enter email -->
+        <label for="confirmEmail">Re-enter Email Address: </label>
+        <input class="inputValues" type="text" name="confirmEmail" id="confirmEmail">
+        <span id="confirm_email_error">&nbsp</span>
+
+        <!-- enter Name -->
+        <label for="fName">First Name: </label>
+        <input class="inputValues" type="text" name="fName" id="fName">
+        <span id="name_error">&nbsp</span>
+
+        <!-- submit button -->
+        <input type="button" name="submitButton" value="Submit" id="submitButton">
+
+      </fieldset>
+    </form>
+  </div>
+
+  <div id="ad-container"></div>
+
+  <footer> &copy titans sports store 2021 , web design by Mikaella Trimm</footer>
+
+  <script src="js/rotateBanner.js"></script>
+  <script src="js/subscribe.js"></script>
+
+</body>
+</html>

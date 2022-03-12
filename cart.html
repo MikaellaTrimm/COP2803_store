@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart Page</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<main>
+  <h1 id="titans"><a href="index.html">Titans Sports Store!</a></h1>
+  <div id="log_in"><a href="log_in.html">Login Your Account</a></div>
+  <div class="divider"></div>
+  <p>
+    This is your cart!
+  </p>
+</main>
+
+<div class="shoppingCartTotals">
+  You have <span id="cartNumber">0</span> items in your cart,
+  totalling $<span id="totalCost">0</span>. The following items
+  are in your cart:
+  <div id="itemsListedOnPage"></div>
+</div>
+
+<div id="paymentInfo">
+  <form id="paymentForm" action="index.html" method="post">
+    <fieldset id="paymentField">
+      <legend>Payment Information</legend>
+    <label for="fname">First Name: </label>
+    <input type="text" name="fname" id="f_name">
+    <label for="lName">Last Name: </label>
+    <input type="text" name="lName" id="l_name">
+    <label for="email">Email: </label>
+    <input type="text" name="email" id="email">
+    <label for="pNum">Phone Number:</label>
+    <input type="text" name="pNum" id="p_num">
+    <label for="ccNUm">Credit Card Number: </label>
+    <input type="text" name="ccNum" id="card_num">
+    <button type="button" name="submit" id="submitPay">Submit</button>
+  </fieldset>
+  </form>
+</div>
+
+
+<div id="ad-container"></div>
+
+<footer> &copy titans sports store 2021 , web design by Mikaella Trimm</footer>
+
+<script src="js/rotateBanner.js"></script>
+<script src="js/checkout.js"></script>
+
+</body>
+</html>

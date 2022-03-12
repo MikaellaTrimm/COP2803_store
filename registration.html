@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register an Account</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <h1 id="titans"><a href="index.html">Titans Sports Store!</a></h1>
+
+  <div class="registration_form">
+    <form class="registration" action="index.html" method="post" id="registerForm">
+      <fieldset>
+        <legend>Email Sign Up</legend>
+        <!-- enter email -->
+        <label for="emailAd">Email Address: </label>
+        <input class="inputValues" type="text" name="emailAd" id="emailAd">
+
+        <!-- password -->
+        <label for="pass">Password: </label>
+        <input type="text" name="pass" id="pass">
+
+        <!-- enter phone number -->
+        <label for="phoneNumber">Phone Number: </label>
+        <input class="inputValues" type="text" name="phoneNumber" id="phoneNumber">
+
+        <!-- enter street address -->
+        <label for="address">Street Address: </label>
+        <input type="text" name="address" id="address">
+
+        <!-- enter city -->
+        <label for="city">City: </label>
+        <input type="text" name="city" id="city">
+
+        <!-- enter state -->
+        <label for="state">State: </label>
+        <input type="text" name="state" id="state">
+
+        <!-- enter zip -->
+        <label for="zipCode">Zip Code: </label>
+        <input type="text" name="zipCode" id="zipCode">
+
+        <!-- choice of contact -->
+        <label for="contactBy">Contact Me By (Text, Email, None): </label>
+        <input type="text" name="contactBy" id="contactBy">
+
+        <!-- TOS -->
+        <label for="tos">Terms of Service (I Accept): </label>
+        <input type="text" name="tos" id="tos">
+
+        <!-- div to format buttons -->
+        <div class="buttons">
+        <!-- register button -->
+        <input type="button" name="registerButton" value="Submit" id="registerButton">
+        <!-- reset button -->
+        <input type="button" name="resetButton" value="Reset" id="resetButton">
+      </div>
+
+      </fieldset>
+    </form>
+  </div>
+
+<!-- form for errors/content -->
+  <table id="validTable">
+    <tr>
+      <td>Email:</td>
+      <td id="email_error">*</td>
+    </tr>
+    <tr>
+      <td>Password:</td>
+      <td id="pass_error">*</td>
+    </tr>
+    <tr>
+      <td>Phone Number:</td>
+      <td id="phone_error">*</td>
+    </tr>
+    <tr>
+      <td>Street Address:</td>
+      <td id="address_error">*</td>
+    </tr>
+    <tr>
+      <td>City:</td>
+      <td id="city_error">*</td>
+    </tr>
+    <tr>
+      <td>State:</td>
+      <td id="state_error">*</td>
+    </tr>
+    <tr>
+      <td>Zip:</td>
+      <td id="zip_error">*</td>
+    </tr>
+    <tr>
+      <td>Contact Method:</td>
+      <td id="contact_error">*</td>
+    </tr>
+    <tr>
+      <td>T.O.S:</td>
+      <td id="tos_error">*</td>
+    </tr>
+  </table>
+
+  <div id="ad-container"></div>
+
+  <footer> &copy titans sports store 2021 , web design by Mikaella Trimm</footer>
+
+  <script src="js/rotateBanner.js"></script>
+  <script src="js/registration.js"></script>
+
+</body>
+</html>
